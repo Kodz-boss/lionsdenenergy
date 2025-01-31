@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    height: 90vh;
+    background-image: url('AdobeStock_96622127-cropped-1024x576.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.dark{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.574);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navlinks{
+    color: white;
+    font-size: 14px;
+}
+
+nav.white{
+    background-color: black;
+    color: white;
+}
+
+.number{
+    font-size: 18px;
+    color: white;
+}
+
+.content{
+    padding-top: 10px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logopic{
+    width: 50px;
+    height: 50px;
+    background-image: url('lionslogo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logotext{
+    font-size: 23px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    color: rgb(175, 118, 53);
+}
+
+.headercontent{
+    color: white;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.headtext{
+    font-size: 55px;
+}
+
+.headsmalltext{
+    width: 60%;
+    line-height: 24px;
+}
+
+.but{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(175, 118, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+.part1{
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.part1hold{
+    width: 80%;
+    height: 150px;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.part1text{
+    font-size: 35px;
+}
+
+.part1smalltext{
+    font-size: 14px;
+}
+
+.part1text2{
+    width: 70%;
+    height: fit-content;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+.part1img{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.part1imgg1{
+    width: 33.3%;
+    height: 100%;
+    background-image: url('lion1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1imgg2{
+    width: 33.3%;
+    height: 100%;
+    background-image: url('lion2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part1imgg3{
+    width: 33.3%;
+    height: 100%;
+    background-image: url('lion3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.part2{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part2text{
+    font-size: 35px;
+    text-align: center;
+}
+
+.part2hold{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.part2hold1{
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.part2hold11{
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.part2icon{
+    font-size: 35px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(175, 118, 53);
+}
+
+.part2holdtext{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part2holdsmalltext{
+    font-size: 12px;
+    color: grey;
+}
+
+.part2holdheadtext{
+    font-size: 16px;
+}
+
+
+
+
+.part5{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part5headtext{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+
+.part5holder{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.part5box{
+    width: 25%;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.part5img{
+    width: 100%;
+    height: 90%;
+    background-image: url('lion5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.part5img2{
+    width: 100%;
+    height: 90%;
+    background-image: url('lion6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.part5img3{
+    width: 100%;
+    height: 90%;
+    background-image: url('lion7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.part5smalltext{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 700;
+}
+
+
+
+.part6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-image: url('lion4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    gap: 50px;
+}
+
+.part6headtext{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.part3{
+    width: 100%;
+    height: 500px;
+    background-image: url('logo5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.part3holder{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.part3headtext{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.part3smalltext{
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.butt{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(175, 118, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+.part4{
+    width: 100%;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.input{
+    width: 60%;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(240, 239, 239);
+    padding-left: 20px;
+}
+
+.part4text{
+    text-align: center;
+}
+
+.icon{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+
+/* Mobile devices (up to 600px) */
+@media (max-width: 768px) {
+    .navlinks {
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .menu {
+        display: none; /* Hide the menu by default */
+        flex-direction: column; /* Stack the links vertically */
+        position: absolute; /* Position it absolutely */
+        top: 80px; /* Adjust based on your navbar height */
+        left: 0;
+        width: 100%; /* Full width */
+        background-color: rgba(0, 0, 0, 0.8); /* Background color */
+        z-index: 1000; /* Ensure it appears above other content */
+    }
+    
+    .menu.active {
+        display: flex; /* Show the menu when active */
+    }
+    
+    .navlink {
+        color: white; /* Link color */
+        padding: 10px; /* Spacing */
+        text-align: center; /* Center the text */
+    }
+
+    .logo{
+        font-size: 14px;
+    }
+
+    .number{
+        display: none;
+    }
+
+    .icon{
+        display: block;
+        font-size: 20px;
+        color: white;
+    }
+
+    .part3smalltext{
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+        color: white;
+    }
+
+    .headtext {
+        font-size: 30px;
+    }
+
+    .headercontent {
+        margin-left: 20px;
+        width: 90%;
+    }
+
+    .part1text {
+        font-size: 28px;
+    }
+
+    .part2text{
+        font-size: 24px;
+    }
+
+    .part4text{
+        font-size: 24px;
+    }
+
+    .part2hold11 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part2hold1 {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .part5holder{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    
+    .part5box{
+        width: 80%;
+        height: 400px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .part6headtext{
+        font-size: 24px;
+        color: white;
+        text-align: center;
+    }
+
+    .part1img{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .part1imgg1{
+        width: 100%;
+        height: 200px;
+        background-image: url('lion1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .part1imgg2{
+        width: 100%;
+        height: 200px;
+        background-image: url('lion2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .part1imgg3{
+        width: 100%;
+        height: 200px;
+        background-image: url('lion3.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+/* Tablets (601px to 900px) */
+@media (min-width: 768px) and (max-width: 900px) {
+    .navlinks {
+        font-size: 14px;
+    }
+
+    .headtext {
+        font-size: 40px;
+    }
+
+    .headercontent {
+        margin-left: 50px;
+        width: 70%;
+    }
+
+    .part1text {
+        font-size: 32px;
+    }
+
+    .part2hold11 {
+        width: 45%;
+    }
+
+    .input {
+        width: 70%;
+    }
+}
+
+/* Desktops (901px and above) */
+@media (min-width: 901px) {
+    .navlinks {
+        font-size: 16px;
+    }
+
+    .headtext {
+        font-size: 55px;
+    }
+
+    .headercontent {
+        margin-left: 100px;
+        width: 50%;
+    }
+
+    .part1text {
+        font-size: 35px;
+    }
+
+    .part2hold11 {
+        width: 30%;
+    }
+
+    .input {
+        width: 60%;
+    }
+}
